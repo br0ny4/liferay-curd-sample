@@ -1,0 +1,10 @@
+Bundle-Name: book-api
+Bundle-SymbolicName: com.dz100.book.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.dz100.book.exception,\
+	com.dz100.book.model,\
+	com.dz100.book.service,\
+	com.dz100.book.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../book-service/service.xml
